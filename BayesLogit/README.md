@@ -15,4 +15,9 @@ Requires:
 
     library(mvtnorm)
     library(coda)
+    library(MASS)
+
+Run using:
+
+    source("BLR_data.R")
 

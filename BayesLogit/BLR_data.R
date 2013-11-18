@@ -10,12 +10,13 @@
 
 library(mvtnorm)
 library(coda)
+library(MASS)
 
 source("BLR_funcs.R")
 
 #################################################
 verbose <- FALSE
-shortrun <- FALSE
+shortrun <- T#FALSE
 niter  <- ifelse(shortrun,10000,500000)
 burnin <- ifelse(shortrun,2000,10000)
 retune <- ifelse(shortrun,200,500)

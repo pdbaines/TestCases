@@ -441,3 +441,4 @@ fitJOINT = JointModelECM(fitLME,fitCOX,timeVarY,funcY,control)
 
 # Save results:
 save(fitJOINT,file="Result.RData")
+

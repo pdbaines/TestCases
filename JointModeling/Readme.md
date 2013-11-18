@@ -10,5 +10,14 @@ Available at e.g., <www.jstor.org/stable/4124524‎>, <www.stat.ncu.edu.tw/teach
 
 The file `Example_JointModeling_Code.R` is entirely self-contained and can be run via `source('Example_JointModeling_Code.R')` (from the appropriate working directory). The file loads in the data from `Aids.RData`, and will output a file `Results.RData` containing the results of the fit.
 
+Requires:
+
+    library(MASS)
+    library(nlme)
+    library(survival)
+
+To run:
+
+    source("Example_JointModeling_Code.R")
 
 
